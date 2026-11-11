@@ -1,0 +1,184 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: Alert.spec.js >> Alert Handling
+- Location: tests\Alert.spec.js:3:1
+
+# Error details
+
+```
+Test timeout of 30000ms exceeded.
+```
+
+# Page snapshot
+
+```yaml
+- generic [aria-hidden] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e5]:
+      - link [ref=e7] [cursor=pointer]:
+        - /url: http://www.automationtesting.in
+      - heading [level=1] [ref=e10]: Automation Demo Site
+    - navigation [ref=e11]:
+      - list [ref=e14]:
+        - listitem [ref=e15]:
+          - link [ref=e16] [cursor=pointer]:
+            - /url: Index.html
+            - text: Home
+        - listitem [ref=e17]:
+          - link [ref=e18] [cursor=pointer]:
+            - /url: Register.html
+            - text: Register
+        - listitem [ref=e19]:
+          - link [ref=e20] [cursor=pointer]:
+            - /url: WebTable.html
+            - text: WebTable
+        - listitem [ref=e21]:
+          - link [ref=e22] [cursor=pointer]:
+            - /url: SwitchTo.html
+            - text: SwitchTo
+          - generic [ref=e23]: 
+        - listitem [ref=e24]:
+          - link [ref=e25] [cursor=pointer]:
+            - /url: Widgets.html
+            - text: Widgets
+          - generic [ref=e26]: 
+        - listitem [ref=e27]:
+          - link [ref=e28] [cursor=pointer]:
+            - /url: Interactions.html
+            - text: Interactions
+          - generic [ref=e29]: 
+        - listitem [ref=e30]:
+          - link [ref=e31] [cursor=pointer]:
+            - /url: SwitchTo.html
+            - text: Video
+          - generic [ref=e32]: 
+        - listitem [ref=e33]:
+          - link [ref=e34] [cursor=pointer]:
+            - /url: WYSIWYG.html
+            - text: WYSIWYG
+          - generic [ref=e35]: 
+        - listitem [ref=e36]:
+          - link [ref=e37] [cursor=pointer]:
+            - /url: "#"
+            - text: More
+          - generic [ref=e38]: 
+        - listitem [ref=e39]:
+          - link [ref=e40] [cursor=pointer]:
+            - /url: http://practice.automationtesting.in/
+            - text: Practice Site
+  - generic [ref=e44]:
+    - list [ref=e46]:
+      - listitem [ref=e47]:
+        - link [ref=e48]:
+          - /url: "#OKTab"
+          - text: Alert with OK
+      - listitem [ref=e49]:
+        - link [active] [ref=e50] [cursor=pointer]:
+          - /url: "#CancelTab"
+          - text: Alert with OK & Cancel
+      - listitem [ref=e51]:
+        - link [ref=e52] [cursor=pointer]:
+          - /url: "#Textbox"
+          - text: Alert with Textbox
+    - button [ref=e54] [cursor=pointer]: "click the button to display an alert box:"
+  - generic [ref=e56]:
+    - insertion [ref=e59]:
+      - generic [ref=e62]:
+        - heading [level=2] [ref=e64]: Discover more
+        - link [ref=e65] [cursor=pointer]:
+          - generic [ref=e66]: Automation Software Testing
+        - link [ref=e70] [cursor=pointer]:
+          - generic [ref=e71]: Test Automation Tools
+        - link [ref=e75] [cursor=pointer]:
+          - generic [ref=e76]: Alert Box Tutorials
+        - link [ref=e80] [cursor=pointer]:
+          - generic [ref=e81]: Confirm Box Examples
+        - link [ref=e85] [cursor=pointer]:
+          - generic [ref=e86]: Software Testing Services
+        - link [ref=e90] [cursor=pointer]:
+          - generic [ref=e91]: Automation Testing Training
+        - link [ref=e95] [cursor=pointer]:
+          - generic [ref=e96]: Automation Demo Access
+        - link [ref=e100] [cursor=pointer]:
+          - generic [ref=e101]: Register Automation Users
+    - insertion [ref=e107]:
+      - generic [ref=e110]:
+        - heading [level=2] [ref=e112]: Discover more
+        - link [ref=e113] [cursor=pointer]:
+          - generic [ref=e114]: Automation Testing Guide
+        - link [ref=e118] [cursor=pointer]:
+          - generic [ref=e119]: Try Cloud Tools
+        - link [ref=e123] [cursor=pointer]:
+          - generic [ref=e124]: Try Dev Tools
+        - link [ref=e128] [cursor=pointer]:
+          - generic [ref=e129]: Automated Testing Platforms
+        - link [ref=e133] [cursor=pointer]:
+          - generic [ref=e134]: Source Robotics
+        - link [ref=e138] [cursor=pointer]:
+          - generic [ref=e139]: Software Quality Assurance
+        - link [ref=e143] [cursor=pointer]:
+          - generic [ref=e144]: Automation Testing Resources
+        - link [ref=e148] [cursor=pointer]:
+          - generic [ref=e149]: Learn to Code
+    - insertion [ref=e155]:
+      - iframe [ref=e157]:
+        - generic [ref=f4e2]:
+          - iframe [ref=f4e5]:
+            - generic [ref=f9e2] [cursor=pointer]:
+              - img [ref=f9e4]:
+                - generic "Ask" [ref=f9e144]
+              - button [ref=f9e320]
+          - generic [ref=f4e6]:
+            - generic:
+              - generic [ref=f4e7] [cursor=pointer]
+              - button [ref=f4e12] [cursor=pointer]
+    - insertion [ref=e160]:
+      - generic [ref=e163]:
+        - heading [level=2] [ref=e165]: Discover more
+        - link [ref=e166] [cursor=pointer]:
+          - generic [ref=e167]: Find Tech Guides
+        - link [ref=e171] [cursor=pointer]:
+          - generic [ref=e172]: Automation Consulting Service
+        - link [ref=e176] [cursor=pointer]:
+          - generic [ref=e177]: Software Test Plans
+        - link [ref=e181] [cursor=pointer]:
+          - generic [ref=e182]: Home Automation Solutions
+        - link [ref=e186] [cursor=pointer]:
+          - generic [ref=e187]: JavaScript Alert Boxes
+        - link [ref=e191] [cursor=pointer]:
+          - generic [ref=e192]: Compare Broadband
+        - link [ref=e196] [cursor=pointer]:
+          - generic [ref=e197]: Performance Testing Solutions
+        - link [ref=e201] [cursor=pointer]:
+          - generic [ref=e202]: Regression Testing Services
+    - contentinfo [ref=e207]:
+      - generic [ref=e209]:
+        - generic [ref=e210]:
+          - text: "\"@ 2016\""
+          - link [ref=e211] [cursor=pointer]:
+            - /url: "#"
+            - text: Automation Testing
+          - text: "\"All Rights Reserved.\""
+        - generic [ref=e212]:
+          - link [ref=e213] [cursor=pointer]:
+            - /url: https://www.facebook.com/automationtesting2016/
+            - generic [ref=e214]: 
+          - link [ref=e215] [cursor=pointer]:
+            - /url: https://twitter.com/krishnasakinala
+            - generic [ref=e216]: 
+          - link [ref=e217] [cursor=pointer]:
+            - /url: https://www.linkedin.com/nhome/?trk=hb_signin
+            - generic [ref=e218]: 
+          - link [ref=e219] [cursor=pointer]:
+            - /url: https://plus.google.com/105286300926085335367
+            - generic [ref=e220]: 
+          - link [ref=e221] [cursor=pointer]:
+            - /url: https://www.youtube.com/channel/UCmQRa3pWM9zsB474URz8ESg
+            - generic [ref=e222]: 
+```

@@ -1,0 +1,7 @@
+[
+  '1\tJohn\tSmith\tjohn.smith@company.com\t35\t$75,000\tEngineering\tActive\n' +
+    '2\tSarah\tJohnson\tsarah.j@company.com\t28\t$65,000\tMarketing\tActive\n' +
+    '3\tMichael\tWilliams\tm.williams@company.com\t42\t$95,000\tEngineering\tActive\n' +
+    '4\tEmily\tBrown\temily.brown@company.com\t31\t$55,000\tHR\tOn Leave\n' +
+    '5\tDavid\tJones\td.jones@company.com\t45\t$120,000\tExecutive\tActive'
+]
