@@ -8,7 +8,7 @@ test("Registerpage handling",async({page})=>{
     const fname= await page.locator('//input[@placeholder="First Name"]');
     await fname.fill('Karpagam');
     const lname = await page.locator('//input[@placeholder="Last Name"]');
-    await lname.fill('G');
+    await lname.fill('B');
     const address= await page.locator('//textarea[@rows="3"]');
     await address.fill("2/19 subbarayan nagar,thuraipakkam.");
     const email= await page.locator('//input[@type="email"]');
